@@ -39,23 +39,23 @@
 /* Begin PBXFileReference section */
 		0917864C6EBDF74AF56CD92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		37F782642BF01F73177202A9 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
-		698621C16A69E1DB27AE1BE0 /* OpenClaudeCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenClaudeCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		698621C16A69E1DB27AE1BE0 /* mac_open-claude-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mac_open-claude-code.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8540AE2A4B8EB5933DD00C67 /* FinderExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinderExtension.entitlements; sourceTree = "<group>"; };
 		9951BDC2868BB2A7B10025A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A42EBD251C2349655B3261A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B34A2BFBF202744C63A3D687 /* OpenClaudeCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenClaudeCode.entitlements; sourceTree = "<group>"; };
+		B34A2BFBF202744C63A3D687 /* mac_open-claude-code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_open-claude-code.entitlements; sourceTree = "<group>"; };
 		F9D189E9F0E44F2E45FFB0E6 /* FinderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		66E82362DB66F7DBB9B90507 /* OpenClaudeCode */ = {
+		66E82362DB66F7DBB9B90507 /* mac_open-claude-code */ = {
 			isa = PBXGroup;
 			children = (
 				9951BDC2868BB2A7B10025A6 /* AppDelegate.swift */,
 				A42EBD251C2349655B3261A2 /* Info.plist */,
-				B34A2BFBF202744C63A3D687 /* OpenClaudeCode.entitlements */,
+				B34A2BFBF202744C63A3D687 /* mac_open-claude-code.entitlements */,
 			);
-			path = OpenClaudeCode;
+			path = mac_open-claude-code;
 			sourceTree = "<group>";
 		};
 		A84682DD630753838A38CF9A /* FinderExtension */ = {
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				F9D189E9F0E44F2E45FFB0E6 /* FinderExtension.appex */,
-				698621C16A69E1DB27AE1BE0 /* OpenClaudeCode.app */,
+				698621C16A69E1DB27AE1BE0 /* mac_open-claude-code.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A84682DD630753838A38CF9A /* FinderExtension */,
-				66E82362DB66F7DBB9B90507 /* OpenClaudeCode */,
+				66E82362DB66F7DBB9B90507 /* mac_open-claude-code */,
 				C20BAD94BDC3B463581781C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 			productReference = F9D189E9F0E44F2E45FFB0E6 /* FinderExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		F7A31E8168FF07F8B0CBF40A /* OpenClaudeCode */ = {
+		F7A31E8168FF07F8B0CBF40A /* mac_open-claude-code */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C32A33B4598EB7921AA7CDDF /* Build configuration list for PBXNativeTarget "OpenClaudeCode" */;
+			buildConfigurationList = C32A33B4598EB7921AA7CDDF /* Build configuration list for PBXNativeTarget "mac_open-claude-code" */;
 			buildPhases = (
 				0CFA1E52D701A18D96604C2C /* Sources */,
 				133BB2956E462263C1F21D12 /* Embed Foundation Extensions */,
@@ -118,11 +118,11 @@
 			dependencies = (
 				125353F576B66C88A1B7397B /* PBXTargetDependency */,
 			);
-			name = OpenClaudeCode;
+			name = mac_open-claude-code;
 			packageProductDependencies = (
 			);
-			productName = OpenClaudeCode;
-			productReference = 698621C16A69E1DB27AE1BE0 /* OpenClaudeCode.app */;
+			productName = mac_open-claude-code;
+			productReference = 698621C16A69E1DB27AE1BE0 /* mac_open-claude-code.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74C087408CC35E76667E34A6 /* Build configuration list for PBXProject "OpenClaudeCode" */;
+			buildConfigurationList = 74C087408CC35E76667E34A6 /* Build configuration list for PBXProject "mac_open-claude-code" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectRoot = "";
 			targets = (
 				86896FD66F94000C1A7F8A35 /* FinderExtension */,
-				F7A31E8168FF07F8B0CBF40A /* OpenClaudeCode */,
+				F7A31E8168FF07F8B0CBF40A /* mac_open-claude-code */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +203,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.OpenClaudeCode.FinderExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.mac_open-claude-code.FinderExtension;
 				PRODUCT_NAME = FinderExtension;
 				SDKROOT = macosx;
 			};
@@ -213,21 +213,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OpenClaudeCode/OpenClaudeCode.entitlements;
+				CODE_SIGN_ENTITLEMENTS = mac_open-claude-code/mac_open-claude-code.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = OpenClaudeCode/Info.plist;
+				INFOPLIST_FILE = mac_open-claude-code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.OpenClaudeCode;
-				PRODUCT_NAME = OpenClaudeCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.mac_open-claude-code;
+				PRODUCT_NAME = mac_open-claude-code;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -299,21 +299,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = OpenClaudeCode/OpenClaudeCode.entitlements;
+				CODE_SIGN_ENTITLEMENTS = mac_open-claude-code/mac_open-claude-code.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = OpenClaudeCode/Info.plist;
+				INFOPLIST_FILE = mac_open-claude-code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.OpenClaudeCode;
-				PRODUCT_NAME = OpenClaudeCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.mac_open-claude-code;
+				PRODUCT_NAME = mac_open-claude-code;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -387,7 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.OpenClaudeCode.FinderExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovstudio.mac_open-claude-code.FinderExtension;
 				PRODUCT_NAME = FinderExtension;
 				SDKROOT = macosx;
 			};
@@ -396,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74C087408CC35E76667E34A6 /* Build configuration list for PBXProject "OpenClaudeCode" */ = {
+		74C087408CC35E76667E34A6 /* Build configuration list for PBXProject "mac_open-claude-code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				674D5AF92F46AE35854AE737 /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C32A33B4598EB7921AA7CDDF /* Build configuration list for PBXNativeTarget "OpenClaudeCode" */ = {
+		C32A33B4598EB7921AA7CDDF /* Build configuration list for PBXNativeTarget "mac_open-claude-code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				938F25B13C557E25D4C15E78 /* Debug */,

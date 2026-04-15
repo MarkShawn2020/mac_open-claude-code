@@ -1,23 +1,23 @@
-name: OpenClaudeCode
+name: mac_open-claude-code
 options:
   bundleIdPrefix: com.lovstudio
   deploymentTarget:
     macOS: "14.0"
 
 targets:
-  OpenClaudeCode:
+  mac_open-claude-code:
     type: application
     platform: macOS
     sources:
-      - OpenClaudeCode
+      - mac_open-claude-code
     info:
-      path: OpenClaudeCode/Info.plist
+      path: mac_open-claude-code/Info.plist
       properties:
         LSUIElement: true
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.lovstudio.OpenClaudeCode
-        PRODUCT_NAME: OpenClaudeCode
+        PRODUCT_BUNDLE_IDENTIFIER: com.lovstudio.mac_open-claude-code
+        PRODUCT_NAME: mac_open-claude-code
         MARKETING_VERSION: "0.1.0"
         CURRENT_PROJECT_VERSION: 1
         CODE_SIGN_IDENTITY: "-"
@@ -25,7 +25,7 @@ targets:
         ENABLE_HARDENED_RUNTIME: true
         MACOSX_DEPLOYMENT_TARGET: "14.0"
     entitlements:
-      path: OpenClaudeCode/OpenClaudeCode.entitlements
+      path: mac_open-claude-code/mac_open-claude-code.entitlements
       properties:
         com.apple.security.app-sandbox: true
     dependencies:
@@ -46,7 +46,7 @@ targets:
           NSExtensionAttributes: {}
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.lovstudio.OpenClaudeCode.FinderExtension
+        PRODUCT_BUNDLE_IDENTIFIER: com.lovstudio.mac_open-claude-code.FinderExtension
         PRODUCT_NAME: FinderExtension
         MARKETING_VERSION: "0.1.0"
         CURRENT_PROJECT_VERSION: 1
